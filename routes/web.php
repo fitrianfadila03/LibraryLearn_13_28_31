@@ -1,83 +1,30 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
  Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('home'); 
-});
+Route::get('/index', [HomeController::class, 'index'])->name('index');
+Route::get('/', [HomeController::class, 'home'])->name('home');
+Route::get('login', [HomeController::class, 'login'])-> name('login');
 
-Route::get('/index', function () {
-    return view('index'); 
-})->name('index');
+Route::get('/wealth', [HomeController::class, 'wealthOfNations'])->name('wealth');
+Route::get('/howtores', [HomeController::class, 'howToRespectMyself'])->name('howtores');
+Route::get('/soyouwant', [HomeController::class, 'soYouWantToBeALibrarian'])->name('soyouwant');
+Route::get('/harrypotter', [HomeController::class, 'harryPotter'])->name('harrypotter');
+Route::get('/atomic', [HomeController::class, 'atomicHabits'])->name('atomic');
+Route::get('/themillionaire', [HomeController::class, 'theMillionaireNextDoor'])->name('themillionaire');
+Route::get('/thepsychology', [HomeController::class, 'thePsychologyOfMoney'])->name('thepsychology');
+Route::get('/yourmoney', [HomeController::class, 'yourMoneyOrYourLife'])->name('yourmoney');
 
-Route::get('/login', function () {
-    return view('login'); 
-})->name('login');
-
-Route::get('/wealth', function () {
-    return view('wealth'); 
-})->name('wealth');
-
-Route::get('/howtores', function () {
-    return view('howtores'); 
-})->name('howtores');
-
-Route::get('/soyouwant', function () {
-    return view('soyouwant'); 
-})->name('soyouwant');
-
-Route::get('/harrypotter', function () {
-    return view('harrypotter'); 
-})->name('harrypotter');
-
-Route::get('/atomic', function () {
-    return view('atomic'); 
-})->name('atomic');
-
-Route::get('/themillionaire', function () {
-    return view('themillionaire'); 
-})->name('themillionaire');
-
-Route::get('/thepsychology', function () {
-    return view('thepsychology'); 
-})->name('thepsychology');
-
-Route::get('/yourmoney', function () {
-    return view('yourmoney'); 
-})->name('yourmoney');
-
-Route::get('/jktsblmpago', function () {
-    return view('jktsblmpago'); 
-})->name('jktsblmpago');
-
-Route::get('/malioboro', function () {
-    return view('malioboro'); 
-})->name('malioboro');
-
-Route::get('/pulang', function () {
-    return view('pulang'); 
-})->name('pulang');
-
-Route::get('/hujan', function () {
-    return view('hujan');
-})->name('hujan');
-
-Route::get('/matahari', function () {
-    return view('matahari'); 
-})->name('matahari');
-
-Route::get('/dilan991', function () {
-    return view('dilan991'); 
-})->name('dilan991');
-
-Route::get('/dilan990', function () {
-    return view('dilan990'); 
-})->name('dilan990');
-
-Route::get('/milea', function () {
-    return view('milea'); 
-})->name('milea');
+Route::get('/jktsblmpago', [HomeController::class, 'jakartaSebelumPagi'])->name('jktsblmpago');
+Route::get('/malioboro', [HomeController::class, 'malioboroAtMidnight'])->name('malioboro');
+Route::get('/pulang', [HomeController::class, 'pulang'])->name('pulang');
+Route::get('/hujan', [HomeController::class, 'hujan'])->name('hujan');
+Route::get('/matahari', [HomeController::class, 'matahari'])->name('matahari');
+Route::get('/dilan991', [HomeController::class, 'dilan1991'])->name('dilan991');
+Route::get('/dilan990', [HomeController::class, 'dilan1990'])->name('dilan990');
+Route::get('/milea', [HomeController::class, 'milea'])->name('milea');

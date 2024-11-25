@@ -105,7 +105,7 @@
 
     </section>
 
-    <!-- BestSeller Section -->
+    <!-- BestSeller -->
     <section id="BestSeller" class="py-16 bg-gray-200">
     <div class="container mx-auto px-6 py-8">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

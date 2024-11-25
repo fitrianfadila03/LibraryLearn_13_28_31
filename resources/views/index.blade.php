@@ -13,7 +13,7 @@
     <section class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
         <nav class="flex justify-around py-4">
             <ul class="flex space-x-8 text-lg">
-                <li><a href="home.html" class="hover:text-red-500">Home</a></li>
+                <li><a href="#home" class="hover:text-red-500">Home</a></li>
                 <li><a href="#About" class="hover:text-red-500">About</a></li>
                 <li><a href="#Library" class="hover:text-red-500">Library</a></li>
                 <li><a href="#BestSeller" class="hover:text-red-500">BestSeller</a></li>
@@ -46,58 +46,42 @@
 
         <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/wealth nations.png" alt="Wealth Of Nation" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4">
-                <a href="{{ route('wealth') }}" class="block">Wealth Of Nations</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4" class="block">Wealth Of Nations </h2>
         </div>
 
         <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/howtorespect.png" alt="How To Respect Myself" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4">
-                <a href="{{ route('howtores') }}" class="block">How To Respect My Self</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4" class="block">How To Respect My Self</h2>
         </div>
 
         <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/soyouwant.png" alt="So You Want To Be a Librarian" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4">
-                <a href="{{ route('soyouwant') }}" class="block">So You Want To Be a Librarian</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4" class="block">So You Want To Be a Librarian</h2>
         </div>
 
         <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/harrypotter.png" alt="Harry Potter" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4">
-                <a href="{{ route('harrypotter') }}" class="block">Harry Potter</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4" class="block">Harry Potter</h2>
         </div>
 
         <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/atomichabits.png" alt="Atomic Habits" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4">
-                <a href="{{ route('atomic') }}" class="block">Atomic Habits</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4" class="block">Atomic Habits</h2>
         </div>
 
         <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/themillionarie.png" alt="The Millionaire Next Door" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4">
-                <a href="{{ route('themillionaire') }}" class="block">The Millionaire Next Door</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4" class="block">The Millionaire Next Door</h2>
         </div>
 
         <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/thephysicology.png" alt="The Psychology of Money" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4">
-                <a href="{{ route('thepsychology') }}" class="block">The Psychology Of Money</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4" class="block">The Psychology Of Money</h2>
         </div>
 
         <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/ourmoney.png" alt="Your Money Or Your Life" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4">
-                <a href="{{ route('yourmoney') }}" class="block">Your Money Or Your Life</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4" class="block">Your Money Or Your Life</h2>
         </div>
 
     </div>
@@ -112,58 +96,42 @@
 
         <div class="bg-[#C83838] shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/imagebestseller/jktsebelumpagi.png" alt="Jakarta Sebelum Pagi" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4 text-white">
-                <a href="{{ route('jktsblmpago') }}" class="block">Jakarta Sebelum Pagi</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4 text-white" class="block">Jakarta Sebelum Pagi</h2>
         </div>
 
         <div class="bg-[#C83838] shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/imagebestseller/malioboro.png" alt="Malioboro The Midnight" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4 text-white">
-                <a href="{{ route('malioboro') }}" class="block">Malioboro At Midnight</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4 text-white" class="block">Malioboro At Midnight</h2>
         </div>
 
         <div class="bg-[#C83838] shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/imagebestseller/pulang.png" alt="Pulang" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4 text-white">
-                <a href="{{ route('pulang') }}" class="block">Pulang</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4 text-white" class="block">Pulang</h2>
         </div>
 
         <div class="bg-[#C83838] shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/imagebestseller/hujan.png" alt="Hujan" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4 text-white">
-                <a href="{{ route('hujan') }}" class="block">Hujan</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4 text-white" class="block">Hujan</h2>
         </div>
 
         <div class="bg-[#C83838] shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/imagebestseller/matahari.png" alt="Matahari" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4 text-white">
-                <a href="{{ route('matahari') }}" class="block">Matahari</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4 text-white" class="block">Matahari</h2>
         </div>
 
         <div class="bg-[#C83838] shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/imagebestseller/dian1991.png" alt="Dilan 1991" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4 text-white">
-                <a href="{{ route('dilan991') }}" class="block">Dilan 1991</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4 text-white" class="block">Dilan 1991</h2>
         </div>
 
         <div class="bg-[#C83838] shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/imagebestseller/dilan.png" alt="Dilan 1990" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4 text-white">
-                <a href="{{ route('dilan990') }}" class="block">Dilan 1990</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4 text-white" class="block">Dilan 1990</h2>
         </div>
 
         <div class="bg-[#C83838] shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/imagebestseller/milea.png" alt="Milea Suara dari Dilan" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4 text-white">
-                <a href="{{ route('milea') }}" class="block">Milea Suara Dari Dilan</a>
-            </h2>
+            <h2 class="text-center text-lg font-semibold mt-4 text-white" class="block">Milea Suara Dari Dilan</h2>
         </div>
 
     </div>
@@ -172,7 +140,7 @@
         
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact  -->
     <section id="Contact" class="py-16 bg-white text-center">
         <h2 class="text-3xl font-bold mb-8">Contact</h2>
         <div class="bg-red-100 shadow-md rounded-lg max-w-md mx-auto p-6">
@@ -185,7 +153,7 @@
         </div>
     </section>
 
-    <!-- Footer Section -->
+    <!-- Footer -->
     <footer class="bg-red-500 text-white py-8">
         <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div>
@@ -200,17 +168,6 @@
                 <p>New Book</p>
                 <p>BestSeller Book</p>
             </div>
-            <div>
-                <h2 class="text-xl font-semibold">Rating Website</h2>
-                <div class="flex justify-center space-x-2 mt-2">
-                    <span class="text-2xl text-gray-300 hover:text-yellow-400 cursor-pointer">&#9733;</span>
-                    <span class="text-2xl text-gray-300 hover:text-yellow-400 cursor-pointer">&#9733;</span>
-                    <span class="text-2xl text-gray-300 hover:text-yellow-400 cursor-pointer">&#9733;</span>
-                    <span class="text-2xl text-gray-300 hover:text-yellow-400 cursor-pointer">&#9733;</span>
-                    <span class="text-2xl text-gray-300 hover:text-yellow-400 cursor-pointer">&#9733;</span>
-                </div>
-            </div>
-        </div>
         <p class="mt-8 text-gray-200">Presentation <span class="font-bold text-yellow-400">LibraryLearn</span></p>
     </footer>
 

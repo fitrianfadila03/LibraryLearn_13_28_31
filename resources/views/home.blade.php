@@ -29,8 +29,7 @@
                 <h1 class="text-4xl md:text-5xl font-bold">Read a book to open your mind</h1>
             </div>
             <div class="flex justify-center gap-5 mt-6">
-                <a href="{{ route('login') }}" class="px-5 py-3 bg-red-500 text-white rounded-md text-sm font-bold hover:bg-red-600 transform hover:scale-105 transition-all">Login</a>
-                <a href="{{ route('register') }}" class="px-5 py-3 bg-red-500 text-white rounded-md text-sm font-bold hover:bg-red-600 transform hover:scale-105 transition-all">Register</a>
+                <a href="/register" class="px-5 py-3 bg-red-500 text-white rounded-md text-sm font-bold hover:bg-red-600 transform hover:scale-105 transition-all">Register</a>
             </div>
             <div class="flex justify-center items-center mt-10">
                 <img src="assets/image/book.png" class="max-w-full max-h-[70vh]" alt="Book Image">

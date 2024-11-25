@@ -13,7 +13,7 @@
     <section class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
         <nav class="flex justify-around py-4">
             <ul class="flex space-x-8 text-lg">
-                <li><a href="#home" class="hover:text-red-500">Home</a></li>
+                <li><a href="home" class="hover:text-red-500">Home</a></li>
                 <li><a href="#About" class="hover:text-red-500">About</a></li>
                 <li><a href="#Library" class="hover:text-red-500">Library</a></li>
                 <li><a href="#BestSeller" class="hover:text-red-500">BestSeller</a></li>

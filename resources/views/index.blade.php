@@ -44,10 +44,12 @@
     <div class="container mx-auto px-6 py-8">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
-        <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
-            <img src="assets/image/wealth nations.png" alt="Wealth Of Nation" class="rounded-md mx-auto">
-            <h2 class="text-center text-lg font-semibold mt-4" class="block">Wealth Of Nations </h2>
-        </div>
+    <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
+    <img src="assets/image/wealth nations.png" alt="Wealth Of Nation" class="rounded-md mx-auto">
+    <h2 class="text-center text-lg font-semibold mt-4">
+        <a href="/dbdeskripsi" class="block">Wealth Of Nations</a>
+    </h2>
+</div>
 
         <div class="bg-white shadow-md rounded-lg p-4 transform transition hover:scale-105 hover:shadow-lg active:scale-95">
             <img src="assets/image/howtorespect.png" alt="How To Respect Myself" class="rounded-md mx-auto">

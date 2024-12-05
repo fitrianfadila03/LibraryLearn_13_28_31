@@ -40,11 +40,13 @@ class HomeController extends Controller
     {
         return view('index');
     }
-    
-    public function login()
+
+    public function dbdeskripsi()
     {
-        return view('login'); 
+        return view('dbdeskripsi');
     }
+
+
 
     
 }
@@ -63,6 +65,6 @@ class SomeController extends Controller
             return redirect()->back()->withErrors($validator)->withInput();
         }
 
-        // Lanjutkan logika Anda
+
     }
 }

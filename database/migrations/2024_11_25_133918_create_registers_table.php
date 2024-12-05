@@ -6,23 +6,18 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
-    public function up(): void
+    public function up()
     {
         Schema::create('registers', function (Blueprint $table) {
-            $table->id();
-            $table->string('email')->unique();
-            $table->string('password');
-            $table->timestamps();
+            $table->id(); // Primary key
+            $table->string('name'); // Kolom nama
+            $table->string('email')->unique(); // Kolom email
+            $table->string('password'); // Kolom password
+            $table->timestamps(); // created_at dan updated_at
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
-    public function down(): void
+    public function down()
     {
         Schema::dropIfExists('registers');
     }
